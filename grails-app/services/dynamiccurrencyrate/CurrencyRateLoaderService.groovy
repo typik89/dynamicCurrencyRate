@@ -34,7 +34,7 @@ class CurrencyRateLoaderService {
 		return null;
 	}
 
-    def loadRate( String currencyCode , LocalDate date ) {
+    synchronized def loadRate( String currencyCode , LocalDate date ) {
     	CurRate dbo = CurRate.findByCurrencyCodeAndDate( currencyCode , date )
 		if ( dbo != null ){ 
 			return dbo
