@@ -1,0 +1,6 @@
+#Tue, 09 May 2017 03:19:24 +0300
+
+info.app.version=0.1
+info.app.name=dynamicCurrencyRate
+grails.env=production
+info.app.grailsVersion=3.2.9
